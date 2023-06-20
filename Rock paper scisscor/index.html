@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="index.css">
+    <title>rps</title>
+</head>
+<body>
+<article>
+  <header class="header-content">
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#">About</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <h1>Rock 🪨  Paper 📰  Scissors ✂️ </h1>
+    <div class="div-content">
+      <div>
+        <img src="rock.jpg" alt="rock">
+      </div>
+      <div>
+        <img src="paper.jpg" alt="paper">
+      </div>
+      <div>
+        <img src="scissor.jpg" alt="scissor">
+      </div>
+    </div>
+    <section>
+      <button class="options" >rock</button>
+      <button class="options">paper</button>
+      <button class="options">scissors</button>
+    </section>
+    <section class="messages">
+      <div class="guesses">
+        <p>You: <span id="player-guess"></span></p>
+        <div id="roundP">
+          <p>Round: <span id="roundCounter">0</span></p>
+        </div>
+        <p>PC: <span id="comp-guess"></span></p>
+      </div>
+      <p> <span id="result"></span></p>
+      <p>You <span id="playerScore">0</span> - <span id="compScore">0</span> PC</p>
+      <p id="roundWinner">Winner : </p>
+      <p id="restartMsg"></p>
+    </section>
+  </main>
+  <footer>
+    <ul>
+      <li><a id="restart" href="index.html">restart</a></li>
+    </ul>
+  </footer>
+</article>
+<script src="app.js"></script>
+</body>
+</html>

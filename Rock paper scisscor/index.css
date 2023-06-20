@@ -1,0 +1,109 @@
+html{
+    font-family: sans-serif;
+}
+.header-content nav ul{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+}
+ul, ul li a{
+    list-style-type: none;
+    text-decoration: none;
+    color: #ffffff;
+}
+li a:hover{
+    color: chartreuse;
+}
+main{
+    height: 80vh;
+    background-color: rgb(255, 255, 255);
+}
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: #ffffff;
+}
+main section{
+    display: flex;
+    justify-content: space-around;
+}
+main .div-content{
+    display: flex;
+    justify-content: space-around;
+}
+main p{
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+    /*padding-top: 5px;*/
+}
+h1{
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    border: 1px solid black;
+}
+button{
+    height: 50px;
+    width: 75px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
+    background-color: #000000;
+    margin-bottom: 10px;
+}
+button:hover{
+    background-color: rgb(94, 255, 255);
+    border: 2px solid #000000;
+    color: black;
+}
+img{
+    width: 75px;
+    height: 100px;
+    border-radius: 5px;
+}
+section.messages{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(94, 255, 255, 0.07);
+    border-radius: 10px;
+    padding: 10px;
+}
+.guesses{
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+#roundP{
+    background-color: rgb(255, 255, 255);
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    position: fixed;
+    border: 1px solid rgb(0, 0, 0);
+    color: black;
+}
+#restart{
+    display: inline-block;
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: black;
+}
+footer li{
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px;
+}
+footer li:hover{
+    background-color: aqua;
+}
+
+@media (max-width: 600px) {
+
+}
